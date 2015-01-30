@@ -14,6 +14,8 @@ public class PointDriver {
 	middlePoint.x = 640.0;
 	middlePoint.y = 512.0;
 
-	lowerLeft.printPoint();
+	upperRight.printPoint();
+	upperRight.clear();
+	upperRight.printPoint();
 	}
 }
